@@ -1,0 +1,56 @@
+{
+    
+        "name": "Rega-Music",
+        "short_name": "Music",
+        "start_url": "./?utm_source=web_app_manifest",
+        "display": "standalone",
+        "background_color": "#fff",
+        "description": "Bienvenidos a REGA-MUSIC",
+        "theme_color": "#cfeded",
+        "orientation": "portrait",
+        "scope":"/",
+        "lang": "en-US",
+        "icons": [
+          {
+            "src": "assets/img/Logo-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          },
+          {
+            "src": "assets/img/Logo-256x256",
+            "sizes": "256x256",
+            "type": "image/png"
+          },
+          {
+            "src": "assets/img/Logo-128x128",
+            "sizes": "128x128",
+            "type": "image/png"
+          },
+          {
+            "src": "assets/img/Logo-64x64",
+            "sizes": "64x64",
+            "type": "image/png"
+          },
+          {
+            "src": "assets/img/Logo-32x32",
+            "sizes": "32x32",
+            "type": "image/png"
+          },
+          {
+            "src": "assets/img/Logo-24x24",
+            "sizes": "24x24",
+            "type": "image/png"
+          },
+          {
+            "src": "assets/img/Logo-16x16",
+            "sizes": "16x16",
+            "type": "image/png"
+          },
+          {
+            "src": "assets/img/Logo-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          }
+        ]
+       
+}
