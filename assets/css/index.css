@@ -1,0 +1,126 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+p, ul, li{
+    font-weight: normal;
+}
+
+button:hover{
+    background-color: rgb(33, 156, 165);
+}
+
+
+#galeria {
+    display:-ms-grid;display:grid;-ms-grid-columns:1fr;
+    grid-template-columns:1fr;
+    grid-gap:16px;
+    background-color:#FFF;
+    padding:32px;
+    border-radius:16px;-webkit-box-shadow:0px 6px 12px rgba(0,0,0,0.2);
+    box-shadow:0px 6px 12px rgba(0,0,0,0.2)}@media(min-width: 768px){
+}
+
+
+#nosotros .container{
+    text-align: center;
+    padding: 150px 12px;
+    
+}
+
+
+#politicas .container{
+    text-align: center;
+    padding: 100px 10px;
+}
+
+#politicas li{
+    margin: 14px 0px;
+    font-weight: bold;
+}
+
+
+
+
+@media (min-width: 850px){
+    
+
+    #nosotros .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #nosotros .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #nosotros h2{
+        margin-top: 0px;
+    }
+
+    #nosotros .img-container{
+        background-image: url("../img/vision.png");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 500px; 
+    }
+    
+    #politicas{
+        
+        background-repeat: no-repeat;
+        background-size: 500px 400px;
+        background-position: calc(100vw - 500px) 120px;
+    }
+
+    #politicas .container{
+        text-align: initial;
+    }
+
+    #politicas ul{
+        margin-left: 100px;
+    }
+
+    
+
+    
+}
+
+
+
+
+@media screen and (max-width:800px){
+    #galeria{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #politicas{
+        background-position-x: calc(100vw - 800px);
+    }
+}
